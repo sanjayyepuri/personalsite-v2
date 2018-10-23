@@ -4,10 +4,10 @@
     <title>Sai Sanjay Yepuri</title>
     <description>Code and other things.
 </description>
-    <link>http://localhost:4000/~sanjay/</link>
-    <atom:link href="http://localhost:4000/~sanjay/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Oct 2018 02:14:04 -0500</pubDate>
-    <lastBuildDate>Tue, 23 Oct 2018 02:14:04 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 23 Oct 2018 17:09:18 -0500</pubDate>
+    <lastBuildDate>Tue, 23 Oct 2018 17:09:18 -0500</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -19,7 +19,7 @@
 &lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;A year ago at a hackathon an engineer had demoed what he called the “cloud on your desk.” Essentially it was  5 Raspberry Pis that were physically attached together on a frame with a network switch. Running on them was a software called OpenStack, a system designed to control compute, storage, and networking resources in large data centers that would be used by cloud applications. I found the compact device extremely interesting and felt that this was something I could do myself. But it wasn’t until earlier this year that I took up the challenge to build my own cluster.&lt;/p&gt;
 
-&lt;p&gt;During spring break I decided on a whim to build a pi cluster and have my own distributed computing test platform. I wanted to be able test various algorithms related to distributed systems (and maybe while it’s idle run a server or use it as a network share for our apartment). This was pretty different from the ideal of having the “cloud on your desk,” but it’ll be an interesting project.&lt;/p&gt;
+&lt;p&gt;During spring break I decided to build a Pi cluster and have my own distributed computing test platform. I wanted to be able test various algorithms related to distributed systems (and maybe while it’s idle run a server or use it as a network share for our apartment). This was pretty different from the ideal of having the “cloud on your desk,” but it’ll be an interesting project.&lt;/p&gt;
 
 &lt;h1 id=&quot;the-build&quot;&gt;The Build&lt;/h1&gt;
 &lt;p&gt;After I had looked online at other pi clusters (such as this &lt;a href=&quot;https://makezine.com/projects/build-a-compact-4-node-raspberry-pi-cluster/&quot;&gt;one&lt;/a&gt; on Makezine), I decided I needed around 4-5 raspberry pis, a USB charging hub, and a network switch. Most any USB hubs and network switches should do; here are the specific ones that I bought.&lt;/p&gt;
@@ -33,17 +33,18 @@
   &lt;li&gt;5x 16GB microSD cards&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I then 3D printed &lt;a href=&quot;https://www.thingiverse.com/thing:1573414&quot;&gt;this&lt;/a&gt; stackable chassis for the Pis which I attached to the switch using a special permanent 3M tape. The end result was a little messy because I had run out of plastic towards the end of the print however the cluster was still functional. In fact this had allowed me to later borrow a friends pi screen to attach to the top of the cluster (the cherry on top). This is how it turned out:
-&lt;img src=&quot;/~sanjay/assets/pi-cluster-build.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I then 3D printed &lt;a href=&quot;https://www.thingiverse.com/thing:1573414&quot;&gt;this&lt;/a&gt; stackable chassis for the Pis which I attached to the switch using a special permanent 3M tape. The end result was a little messy because I had run out of plastic towards the end of the print however the cluster was still functional. In fact this had allowed me to later borrow a friends pi screen to attach to the top of the cluster (the cherry on top). This is how it turned out:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/pi-cluster-build.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h1&gt;
-&lt;p&gt;Since the spring after I assembled the components, the cluster has mostly been sitting idle on a shelf collecting dust. However last weekend the project got revived; a friend had given me another Pi B+ and reminded me of the of the ones not being used.  I decided that I had to complete the project and document the path I take.&lt;/p&gt;
+&lt;p&gt;Since the spring after I had assembled the components, I’ve been swamped by school work; the cluster has mostly been sitting idle on a shelf collecting dust. However last weekend the project got revived. I made it a goal that I complete the project and document the path I take.&lt;/p&gt;
 
-&lt;p&gt;In the next post, I will flash an operating system onto the Pis and configure the network so that they can all communicate with each other.&lt;/p&gt;
+&lt;p&gt;In the next post about the cluster, I will install an operating system onto the Pis and configure the network so that they can all communicate with each other.&lt;/p&gt;
 </description>
         <pubDate>Tue, 23 Oct 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/~sanjay/2018/10/the-cloud-on-your-desk</link>
-        <guid isPermaLink="true">http://localhost:4000/~sanjay/2018/10/the-cloud-on-your-desk</guid>
+        <link>http://localhost:4000/2018/10/the-cloud-on-your-desk</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/10/the-cloud-on-your-desk</guid>
         
         
       </item>
@@ -126,8 +127,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 20 Jul 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/~sanjay/2017/07/code-highlighting</link>
-        <guid isPermaLink="true">http://localhost:4000/~sanjay/2017/07/code-highlighting</guid>
+        <link>http://localhost:4000/2017/07/code-highlighting</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/07/code-highlighting</guid>
         
         <category>sample</category>
         
@@ -184,8 +185,8 @@
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/~sanjay/2017/01/readability</link>
-        <guid isPermaLink="true">http://localhost:4000/~sanjay/2017/01/readability</guid>
+        <link>http://localhost:4000/2017/01/readability</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/readability</guid>
         
         <category>sample</category>
         
@@ -355,8 +356,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 15 Aug 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/~sanjay/2016/08/style-test</link>
-        <guid isPermaLink="true">http://localhost:4000/~sanjay/2016/08/style-test</guid>
+        <link>http://localhost:4000/2016/08/style-test</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/08/style-test</guid>
         
         <category>test,</category>
         
