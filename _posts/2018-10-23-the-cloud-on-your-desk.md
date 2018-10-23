@@ -28,6 +28,6 @@ I then 3D printed [this](https://www.thingiverse.com/thing:1573414) stackable ch
 ![](/assets/pi-cluster-build.jpeg)
 
 # Next Steps 
-Since the spring after I assembled the components, the cluster has mostly been sitting idle on a shelf collecting dust. However last weekend the project got revived; a friend had given me another Pi B+ and reminded me of the of the ones not being used.  I decided that I had to complete the project and document the path I take.
+Since the spring after I assembled the components, the cluster has mostly been sitting idle on a shelf collecting dust since i got swamped by school work. However last weekend the project got revived. I decided that I had to complete the project and document the path I take.
 
 In the next post, I will flash an operating system onto the Pis and configure the network so that they can all communicate with each other. 
