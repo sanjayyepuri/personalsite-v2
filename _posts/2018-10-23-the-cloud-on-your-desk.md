@@ -25,7 +25,7 @@ After I had looked online at other pi clusters (such as this [one](https://makez
 * 5x 16GB microSD cards 
 
 I then 3D printed [this](https://www.thingiverse.com/thing:1573414) stackable chassis for the Pis which I attached to the switch using a special permanent 3M tape. The end result was a little messy because I had run out of plastic towards the end of the print however the cluster was still functional. In fact this had allowed me to later borrow a friends pi screen to attach to the top of the cluster (the cherry on top). This is how it turned out:
-![](/~sanjay/assets/pi-cluster-build.jpeg)
+![](/assets/pi-cluster-build.jpeg)
 
 # Next Steps 
 Since the spring after I assembled the components, the cluster has mostly been sitting idle on a shelf collecting dust. However last weekend the project got revived; a friend had given me another Pi B+ and reminded me of the of the ones not being used.  I decided that I had to complete the project and document the path I take.
