@@ -15,7 +15,7 @@ A year ago at a hackathon an engineer had demoed what he called the "cloud on yo
 During spring break I decided to build a Pi cluster and have my own distributed computing test platform. I wanted to be able test various algorithms related to distributed systems (and maybe while it’s idle run a server or use it as a network share for our apartment). This was pretty different from the ideal of having the “cloud on your desk,” but it’ll be an interesting project. 
 
 # The Build 
-After I had looked online at other pi clusters (such as this [one](https://makezine.com/projects/build-a-compact-4-node-raspberry-pi-cluster/) on Makezine), I decided I needed around 4-5 raspberry pis, a USB charging hub, and a network switch. Most any USB hubs and network switches should do; here are the specific ones that I bought. 
+After I had looked online at other Pi clusters (such as this [one](https://makezine.com/projects/build-a-compact-4-node-raspberry-pi-cluster/) on Makezine), I decided I needed around 4-5 Raspberry Pis, a USB charging hub, and a network switch. Most any USB hubs and network switches should do; here are the specific ones that I bought. 
 
 * 5x Raspberry Pi 3 B+
 * 1x Anker 7 port USB Charging Hub 
@@ -24,7 +24,7 @@ After I had looked online at other pi clusters (such as this [one](https://makez
 * 5x 6in. MicroUSB Cables 
 * 5x 16GB microSD cards 
 
-I then 3D printed [this](https://www.thingiverse.com/thing:1573414) stackable chassis for the Pis which I attached to the switch using a special permanent 3M tape. The end result was a little messy because I had run out of plastic towards the end of the print however the cluster was still functional. In fact this had allowed me to later borrow a friends pi screen to attach to the top of the cluster (the cherry on top). This is how it turned out:
+I then 3D printed [this](https://www.thingiverse.com/thing:1573414) stackable chassis for the Pis which I attached to the switch using a special permanent 3M tape. The end result was a little messy because I had run out of plastic towards the end of the print however the cluster was still functional. In fact this had allowed me to later borrow a friends Pi screen to attach to the top of the cluster (the cherry on top). This is how it turned out:
 
 ![](/assets/pi-cluster-build.jpeg)
 
