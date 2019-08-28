@@ -11,7 +11,7 @@ linkedin: https://www.linkedin.com/in/sanjay-yepuri
 resume: https://drive.google.com/file/d/1OEg4nZAnqHKTMuYdlVuYouBxQqgOX9k0/view?usp=sharing
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.ssanjay.me" # the base hostname & protocol for your site
+url: "http://www.ssanjay.dev" # the base hostname & protocol for your site
 
 google_analytics_id: UA-127947585-1
 disqus_id:
