@@ -1,3 +1,0 @@
-#!/bin/bash
-bundle exec rake check
-scp -r ./_site/\~sanjay/* sanjay@leo.cs.utexas.edu:~/public_html
