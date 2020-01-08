@@ -2,7 +2,7 @@
 layout: post
 title: "The Cloud on Your Desk"
 description: "Building a Cluster of Raspberry Pis"
-image: "/~sanjay/assets/pi-cluster-build.jpeg"
+image: "/assets/pi-cluster-build.jpeg"
 
 category: 
 tags: []
