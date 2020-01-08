@@ -21,6 +21,11 @@ include: [_pages]
 markdown: kramdown
 permalink: /:year/:month/:title
 
+kramdown:
+  syntax_highlighter_opts:
+      block:
+          line_numbers: true
+
 sass:
     style: compressed
 

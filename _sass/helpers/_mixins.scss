@@ -20,6 +20,10 @@
     font-weight: $font-weight;
 }
 
+@mixin ff--article {
+    font-family:  et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
 @mixin ff--code {
     font-family: "SFMono-Regular",Menlo,Courier,monospace
 }

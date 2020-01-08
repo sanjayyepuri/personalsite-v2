@@ -65,6 +65,9 @@
     h5 {
         @include fs--body;
     }
+    p {
+        @include ff--article;
+    }
 
     strong {
         color: $c-base__02;
@@ -80,12 +83,17 @@
 
     ul,
     ol {
+        @include ff--article;
         margin-left: 2.1rem;
     }
 
     img {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-radius: 10px
+    }
+
+    a {
+        padding: 1px 1px ;
     }
 
 		.web-container {
