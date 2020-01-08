@@ -105,12 +105,15 @@ a {
     
     /* Hover animation effect for all buttons */
     &::after {
+      border-radius: 5px;
+      padding: 0px 5px 0px 0px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       content: '';
       position: absolute;
       z-index: -1;
-      width: 100%;
+      width: 110%;
       height: 0%;
-      left: 0;
+      left: -5%;
       bottom: 0;
       background-color: $c-accent;
       transition: all ease 0.3s;
