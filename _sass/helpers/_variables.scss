@@ -21,6 +21,7 @@ $c-accent__blue: #55b4d4;
 $c-accent__darkblue: #399ee6;
 $c-accent__green: #c2d94c;
 $c-accent: $common_accent;
+$c-accent-trans: rgba($common_accent, 0.6);
 
 // Breakpoints
 $bp__sm: 45rem; // 450px

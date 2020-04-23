@@ -7,8 +7,8 @@
 }
 
 .c-archives__year {
-    margin-bottom: 2.5rem;
-    @include fs--heading-1;
+    margin-bottom: 1.5rem;
+    @include fs--heading-2;
 }
 
 .c-archives__list {
@@ -17,9 +17,9 @@
 }
 
 .c-archives__item {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    border-top: 1px solid #cbccc6;
+    display: block;
+    padding: 2.5rem;
+    margin-bottom: 1rem;
     @media screen and (min-width: $bp__sm) {
         display: -webkit-box;
         display: -webkit-flex;
@@ -37,8 +37,30 @@
             -ms-flex-align: center;
                 align-items: center;
     }
+    border-radius: 1rem;
+    transition: all ease 0.3s;
+    &:hover {
+        // @include acrylic;
+        @include shadow;
+        background-color: $c-accent;
+      
+
+        color: $c-base__3;
+
+        h3 {
+            color: $c-base__3;
+        }
+        small {
+            color: $c-base__3;
+        }
+        p {
+            color: $c-base__3;
+        }
+       
+    }
+
     h3 {
-        @include fs--body;
+        font-size: 1.8rem;
     }
 
     p {
@@ -48,7 +70,7 @@
     }
 
     small {
-        padding: 5px 5px;
+        @include fs--body;
     }
 }
 

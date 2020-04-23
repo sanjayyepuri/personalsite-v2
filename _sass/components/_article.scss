@@ -39,6 +39,7 @@
 
 .c-article__main {
     margin-bottom: 5rem; // 50px
+    max-width: 75%;
     @include fs--body;
     color: $c-base__01;
 
