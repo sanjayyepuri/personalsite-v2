@@ -1,0 +1,15 @@
+{
+  "name": "fluids",
+  "collaborators": [
+    "Sanjay Yepuri <sanjay.yepuri@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "fluids_bg.wasm",
+    "fluids.js",
+    "fluids.d.ts"
+  ],
+  "module": "fluids.js",
+  "types": "fluids.d.ts",
+  "sideEffects": false
+}
