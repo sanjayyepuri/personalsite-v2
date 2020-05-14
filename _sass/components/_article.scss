@@ -39,7 +39,7 @@
 
 .c-article__main {
     margin-bottom: 5rem; // 50px
-    max-width: 75%;
+    max-width: 100%;
     @include fs--body;
     color: $c-base__01;
 
@@ -133,6 +133,10 @@
 
 .pagenav div {
   border-color: transparent;
+}
+
+.c-article .no-shadow {
+    box-shadow: none;
 }
 
 .wrapper {
