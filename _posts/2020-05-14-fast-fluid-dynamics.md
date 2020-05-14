@@ -5,6 +5,7 @@ description: "A fast, stable method for fluid simulation on the GPU"
 category: 
 tags: []
 ---
+> Written by Helen Zhou and Sanjay Yepuri
 
 Fluids can be found all around us; everything from a glass of water to a wisp of smoke is governed by the laws of fluid dynamics. These laws are ingrained in us when we watch how a river flows or ocean waves crash. As a result, efficient and accurate fluid simulation is crucial for animating games and movies.
 For our final project we implemented an algorithm called Fast Fluid Dynamics (FFD) using Rust and WebGL. This is a method for creating real-time, stable fluid simulations that run entirely on the GPU based on Jos Stam’s paper, “Stable Fluids” (Stam 1999). 
