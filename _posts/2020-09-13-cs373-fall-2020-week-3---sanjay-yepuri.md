@@ -40,3 +40,5 @@ One of my biggest gripes with large projects in Python is the lack of type infor
 #### What’s your **pick-of-the-week** or **tip-of-the-week**?
 
 My pick-of-the-week is the `func_tools library`. Initially, I implemented caching by creating a map but then read about a decorator `lru_cache` that caches function calls. First, I made a recursive function to compute cycle lengths. Then, I was able to add the decorator and immediately get the benefits of caching. The reason for making the computation recursive was so that intermediate values were also cached. This optimization improved my cache hit rate by about 50%.
+
+<img src="/assets/headshot.jpg">
