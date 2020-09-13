@@ -70,6 +70,10 @@
         @include ff--article;
     }
 
+    hr {
+        background: $c-base__00;
+    }
+
     strong {
         color: $c-base__02;
         font-weight: 700;

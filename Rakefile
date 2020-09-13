@@ -44,7 +44,7 @@ load '_rake-configuration.rb' if File.exist?('_rake-configuration.rb')
 desc 'Preview with livereload on local machine'
 task :preview => :clean do
 	puts green "Starting livereload server"
-  jekyll('serve -L --host localhost')
+  jekyll('serve -L --host 0.0.0.0')
 end
 task :serve => :preview
 
@@ -81,7 +81,7 @@ task :post do
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  
+
   puts cyan "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
